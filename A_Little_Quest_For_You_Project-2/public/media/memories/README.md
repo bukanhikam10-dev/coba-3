@@ -1,0 +1,1 @@
+Add your memory photos here, e.g. 01-sma.jpg. Register their `/media/memories/...` paths in `src/data/giftMedia.js`. Do not add private media unless you are comfortable including it in the published site.

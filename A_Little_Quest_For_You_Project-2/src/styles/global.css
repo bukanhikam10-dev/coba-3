@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Nunito:wght@400;500;600;700;800;900&display=swap');
+
+:root {
+  font-family: 'Nunito', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  color: #f4ead9;
+  background: #20253a;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  --ink: #f4ead9;
+  --muted: #aaa7b7;
+  --midnight: #20253a;
+  --deep: #171b2d;
+  --panel: #2c3149;
+  --panel-hi: #343a54;
+  --line: rgba(237, 223, 201, .16);
+  --gold: #f0d89b;
+  --cream: #e8dcc5;
+  --lavender: #b8acd2;
+  --rose: #c98d9d;
+  --sage: #82937a;
+  --font-mono: 'DM Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+
+* { box-sizing: border-box; }
+html, body, #root { min-width: 320px; min-height: 100%; margin: 0; }
+body { background: var(--midnight); }
+button, input, select, textarea { font: inherit; }
+button { cursor: pointer; }
+button:disabled { cursor: not-allowed; }
+button:focus-visible, select:focus-visible { outline: 3px solid #f0d89b; outline-offset: 3px; }
+::selection { background: #c98d9d; color: #20253a; }
